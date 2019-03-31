@@ -167,10 +167,10 @@ private void move() {
 
 In the class makeMoves the actions to be executed are indicated, if it is to the left the return is of -DOTSIZE, to the right +DOTSIZE and equal to above and below, so I only need an if and an else to make the snake move.
 
-### Classes e Métodos afetados:
+### Classes and Methods Affected:
 The command pattern affected the **Board class** and the Move method.
 
-### Funcionalidades afetadas:
+### Affected Features:
 The functionality affected was snake movement.
 
 
@@ -221,10 +221,10 @@ protected static synchronized Board getInstance() {
     return uniqueInstance;
 }
 ```
-### Classes e Métodos afetados:
+### Classes and Methods Affected:
 The strategy pattern affected the **Board class** and the **initUI** method of the **Snake class**.
 
-### Funcionalidades afetadas:
+### Affected Features:
 The affected functionality was to create only one instance of the **Board class**, which is where all program operation happens.
 
 
