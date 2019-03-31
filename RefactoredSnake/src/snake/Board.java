@@ -135,7 +135,7 @@ public class Board extends JPanel implements ActionListener {
         }
     }
 
-    private void move() { // Strategy
+    private void move() { // Command
         for (int z = dots; z > 0; z--) {
             x[z] = x[(z - 1)];
             y[z] = y[(z - 1)];
