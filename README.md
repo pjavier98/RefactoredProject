@@ -1,4 +1,4 @@
-# RefactoredProject:
+# Snake:
 
 ## Original Project:
 ### How to run:
@@ -9,7 +9,7 @@
 5. Run the project.
 
 
-## Projeto Refatorado:
+## Refatored Project:
 ### How to run:
 1. Clone the repository;
 2. Open IntelliJ;
